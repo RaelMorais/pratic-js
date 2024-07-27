@@ -1,0 +1,94 @@
+h1 {
+    text-align: center;
+
+
+
+}
+body {
+
+    background-image: radial-gradient(circle at 50% -20.71%, #ff57d2 0,
+     #ff4edb 12.5%, #f046e3 25%, #d63feb 37.5%, #b53cf2 50%, 
+     #8c3df9 62.5%, #4f40ff 75%, #0046ff 87.5%, #004bff 100%);
+    }
+.style{
+    
+    background-color: rgb(172, 16, 159);
+    text-align: center;
+    padding: 80PX;
+    margin: auto;
+    border-radius: 100PX;
+    font-size: 25px;
+    
+}
+
+.estilo {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: blue;
+    border: none;
+}
+
+.estilo1 {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: blue;
+    border: none;
+}
+.estilo2{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 100px;
+    border: none;
+    color: blue;
+}
+
+.botao{
+    text-align: center;
+
+
+}
+.botao button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(34, 42, 77);
+    border-radius: 20px;
+    border: none;
+}
+
+.botao button:hover {
+    background-color: rgb(8, 94, 58);
+}
+
+.estilo8{
+        text-align: center;
+        border-radius: 100px;
+        background-color: rgb(10, 45, 143);
+        padding: 70px;
+}
+
+.estilo3 {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: blue;
+    border: none;
+}
+
+
+.estilo4 {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: blue;
+    border: none;
+}
+
+.estilo5 {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: blue;
+    border: none;
+}
