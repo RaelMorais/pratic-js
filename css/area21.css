@@ -1,38 +1,54 @@
 body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-QCi1wBPkE50%2FXi0B5a5GoWI%2FAAAAAAAAlAo%2FvJmX7VYAay0iVfF1nA1BCKNQql6kCBdeQCLcBGAsYHQ%2Fs2560%2Fplano%252Bde%252Bfundo%252Bpara%252Bpc%252Bhd.jpg&f=1&nofb=1&ipt=b3d18028afe80cb277e9cfc8609d6ba659cbf07f8e2e3139877714a89b551564&ipo=images');
 }
-
 
 .style_box {
     text-align: center;
     border: none;
     border-radius: 20px;
-    width: 500px;
+    width: 550px;
     height: 200px;
     margin: 0 auto;
     padding: 85px;
     backdrop-filter: blur(5px);
     z-index: 10;
-position: absolute;
-width: 315px;
-height: 56px;
-left: calc(50% - 315px/2 + 0.5px);
-top: 396px;
-
-background: #D9D9D9;
-border-radius: 10px;
-
 }
 
-.table{
+.box{
     border-radius: 20;
-
-
-
-
-
 }
 
-.container{
-   background-color: rgb(0, 255, 13);
+.box1{
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    height: 15px;
+    border: none;
+    text-align: center;
+    &:hover{
+        border-color: aqua;
+    }
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    color: black;
+    background-color:none;
+    width: 150px;
+    &:hover
+    {
+        transition: 0.2s;
+        background-color: black;
+        color: white;
+    }
+}
+.calc{
+    width: 80px;
+    height: 20px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
 }
